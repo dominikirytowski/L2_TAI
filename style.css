@@ -1,0 +1,12 @@
+body{
+	background-color: yellow;
+	text-align: center;
+}
+.discription{
+	resize: both;
+	overflow: auto;
+}
+
+#buttons{
+	padding-top: 20px;
+}
