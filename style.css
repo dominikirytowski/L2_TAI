@@ -1,12 +1,11 @@
-body{
+.col-sm{
 	background-color: yellow;
-	text-align: center;
-}
-.discription{
-	resize: both;
-	overflow: auto;
 }
 
 #buttons{
 	padding-top: 20px;
+}
+.img {
+	width: 100px;
+	height: auto;
 }
