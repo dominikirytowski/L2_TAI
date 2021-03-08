@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <title>Title Dominik Irytowski</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="form">
+	<div class="labelName">
+		<label for="nameInput">Imie: </label><br/>
+		<input type="text" id="nameInput" placeholder="Podaj imie"/>
+	</div>
+	<div class="labelSurname">
+		<label for="surnamenameInput">Nazwisko: </label><br/>
+		<input type="text" id="surnamenameInput" placeholder="Podaj nazwisko"/>
+	</div>
+	<div class="labelEmail">
+		<label for="emailInput">Email: </label><br/>
+		<input type="text" id="emailInput" placeholder="Podaj email"/>
+	</div>
+	<div class="labelSex">
+		<label for="sexInput">Płeć: </label> <br/>
+		<label><input type="radio" name="sexInput"/> Mężczyzna </label>
+		<label><input type="radio" name="sexInput"/> Kobieta </label>
+	</div>
+	<div class="discription">
+		<label for="discriptionInput">Opis: </label> <br/>
+		<textarea  rows="10" cols="30"></textarea>
+	</div>
+	<div class="age">
+		<label for="ageInput">Wiek: </label> <br/>
+		<input type="number" id="ageInput"/>
+	</div>
+	<div class="status">
+		<label for="statusInput">Ststus cywilny: </label> <br/>
+		<select name="statusInput" id="statusInput">
+			<option value="single">Kawaler/Panna</option>
+			<option value="married">Zamężny</option>
+			<option value="widowed">Wdowiec/Wdowa</option>
+		</select>
+	</div>
+	<div class="buttons"><br/>
+		<button type="button" class="btn btn-primary">Wyczyść</button>
+		<button type="button" class="btn btn-primary">Wyślij</button>
+	</div>
+	<footer>
+		<p>Copyrights © Dominik Irytowski | 2021</p>
+	</footer>
+</div>
+</body>
+</html>
