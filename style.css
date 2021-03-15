@@ -7,6 +7,14 @@ body{
 	overflow: auto;
 }
 
+.scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+	display: none;
+}
+
+
 #buttons{
 	padding-top: 20px;
 }
